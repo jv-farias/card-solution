@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #19A1AE;
+    --title-color: #2E3349;
+    --subtitle-color: #6B7082;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: var(--background-color);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.team h1 {
+    color: white;
+    font-size: 42px;
+}
+
+.team h1:hover {
+    transform: scale(1.05);
+    transition: .7s;
+}
+
+
+.card-container {
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    width: 22rem;
+    height: 24rem;
+    border-radius: 1.7rem;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.bg-top {
+    align-self: center;
+    justify-content: center;
+    height: 8.75rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bg-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-profile {
+    margin-top: -3rem;
+}
+
+.img-profile img {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.information {
+text-align: center;
+}
+
+.information h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.information p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--subtitle-color);
+}
+
+.information span {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--subtitle-color);
+}
+
+.social-media {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.social-media p {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--title-color);
+}
+
+.social-media span {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--subtitle-color);
+}
+
+
+
+
+@media (max-width: 1210px) {
+
+    body {
+        margin: 20rem 0 ;
+    }
+
+    h1 {
+        padding: 0 10px ;
+        text-align: center;
+        font-size: 40px;
+    }
+ 
+    .card-container {
+        flex-direction: column;
+        
+    }
+
+    }
