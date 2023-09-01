@@ -92,6 +92,7 @@ body {
 
 .information {
 text-align: center;
+  
 }
 
 .information h2 {
@@ -101,18 +102,26 @@ text-align: center;
 }
 
 .information p {
+    margin-top: 0.4rem;
     font-size: 14px;
     font-weight: 400;
     color: var(--subtitle-color);
 }
 
+.inline {
+    display: inline-flex;
+    gap: 1rem;
+}
+
 .information span {
+    
     font-size: 18px;
     font-weight: 400;
     color: var(--subtitle-color);
 }
 
 .social-media {
+    margin-top: 2rem;
     width: 100%;
     display: flex;
     align-items: center;
